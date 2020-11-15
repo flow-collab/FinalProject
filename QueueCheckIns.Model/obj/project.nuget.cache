@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VvZvQ4tlbIARLbDiAXnwLoeB6Vt8YEQs3l8MTUX5bGkxzUYevFwfadmGxvWspZPGS+9LzqZ40ldVvs8BBVq7SA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mum's Laptop\\Documents\\Higher Diploma Cloud and Web Tech\\CapStone\\New_FinalProject\\QueueCheckIns.Model\\QueueCheckIns.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mum's Laptop\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Mum's Laptop\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Mum's Laptop\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

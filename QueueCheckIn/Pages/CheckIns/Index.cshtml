@@ -1,0 +1,92 @@
+﻿@page
+@model QueueCheckIn.Pages.CheckIns.IndexModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+@await Component.InvokeAsync("WaitCount")
+
+
+<h1>Currently Active Check Ins</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Check-In ID
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Email Address
+            </th>
+            <th>
+                Arrival Date
+            </th>
+            <th>
+                Arrival Time
+            </th>
+            <th>
+                Booking Type
+            </th>
+            <th>
+                Status
+            </th>
+            @*<th>
+                Category Time
+            </th>*@
+        </tr>
+    </thead>
+    <tbody>
+
+
+        @foreach (var checkin in Model.CheckIns)
+        {
+            if (checkin.Status != Status.WithBarber)
+
+            {
+
+        <tr>
+            <td>
+                <h5>@checkin.Id</h5>
+            </td>
+            <td>
+                <h5>@checkin.Name</h5>
+            </td>
+
+            <td>
+                <h5>@checkin.PhoneNumber</h5>
+            </td>
+
+            <td>
+                <h5>@checkin.CheckInDate.ToShortDateString()</h5>
+            </td>
+
+            <td>
+                <h5>@checkin.CheckInTime.ToShortTimeString()</h5>
+            </td>
+            <td>
+                <h5>@checkin.Category</h5>
+            </td>
+
+            <td>
+                <h5>@checkin.Status</h5>
+            </td>
+            @*<td>
+                <h5>@checkin.CategoryTime</h5>
+            </td>*@
+
+            <td>
+                @*<a asp-page="/CheckIns/Details" asp-route-ID="@checkin.Id" class="btn btn-primary m-1">View</a>*@
+                <a asp-page="/CheckIns/Edit" asp-route-ID="@checkin.Id" class="btn btn-primary m-1">Change Status</a>
+                <a asp-page="/CheckIns/Delete" asp-route-ID="@checkin.Id" class="btn btn-danger m-1">Delete</a>
+            </td>
+        </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+

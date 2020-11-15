@@ -1,0 +1,16 @@
+﻿@page "{id}"
+@model QueueCheckIn.Pages.CheckIns.DeleteModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Check In</h1>
+
+<div class="alert alert-danger">
+    <h5> Are you sure you want to delete the check-in - @Model.CheckIn.Name</h5>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Yes</button>
+        <a class="btn btn-primary" asp-page="/CheckIns/Index">No</a>
+    </form>
+</div>
+

@@ -1,0 +1,25 @@
+﻿@model IEnumerable<QueueTime>
+
+<body>
+    @foreach (var t in Model)
+    {
+        if (@t.TotalWait < 60)
+        {
+            <p class="lead bg-light">
+                The current estimated waiting time is  @t.TotalWait minutes.
+            </p>
+        }
+        else if (t.TotalWait > 59)
+        {
+            <p class="lead bg-light">
+                The current estimated waiting time is @(@t.TotalWait / 60) hours and @(@t.TotalWait % 60) minutes.
+            </p>
+        }
+        else
+        {
+            <p class="lead bg-light">
+                You are next in line, you should receive an alert to come to the barber shop within in the next 15 minutes.
+            </p>
+        }
+    }
+</body>

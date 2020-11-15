@@ -1,0 +1,16 @@
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.deps.json
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.dll
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.AssemblyInfoInputs.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.AssemblyInfo.cs
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.pdb
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.dll
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.pdb
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.csprojAssemblyReference.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.deps.json
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.dll
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\bin\Debug\netstandard2.0\QueueCheckIns.Model.pdb
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.AssemblyInfoInputs.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.AssemblyInfo.cs
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.csproj.CoreCompileInputs.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.dll
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckIns.Model\obj\Debug\netstandard2.0\QueueCheckIns.Model.pdb

@@ -1,0 +1,29 @@
+﻿@page "/chechins/view/{id}"
+@model QueueCheckIn.Pages.CheckIns.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card-header">
+            <h1>@Model.CheckIn.Name</h1>
+        </div>
+
+        <div class="card-body text-center">
+            <h4>Check In Status: @Model.CheckIn.Status</h4>
+            <h4>Check In ID: @Model.CheckIn.Id</h4>
+            <h4>Check In Phone Number: @Model.CheckIn.PhoneNumber</h4>
+            <h4>Check In Date: @Model.CheckIn.CheckInDate</h4>
+            <h4>Check In Time: @Model.CheckIn.CheckInTime</h4>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-page="index" class="btn btn-primary">Back</a>
+            <a href="#" class="btn btn-primary">Edit</a>
+            <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+</div>
+

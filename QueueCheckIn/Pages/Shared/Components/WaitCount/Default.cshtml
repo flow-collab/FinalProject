@@ -1,0 +1,33 @@
+﻿@model IEnumerable<QueueCount>
+
+<body>
+    @if (Model != null)
+    {
+        @foreach (var queueWaiting in Model)
+        {
+            //if(queueWaiting.Status == Status.Waiting)
+            if (@queueWaiting.Count == 1)
+            {
+                <p class="lead bg-light">
+                        There is currently @queueWaiting.Count  person @queueWaiting.Status in the queue.
+                </p>
+            }
+            else if (queueWaiting.Count > 1)
+            {
+                <p class="lead bg-light">
+
+                        There are currently @queueWaiting.Count  people @queueWaiting.Status in the queue.
+                </p>
+            }
+            else
+            {
+                <p class="lead bg-light">
+                        You are the next person in the queue. Your estimated wait time should be less than 15 minutes.
+                </p>
+            }
+        }
+
+    }
+
+</body>
+

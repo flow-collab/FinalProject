@@ -1,0 +1,4 @@
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckInServices\obj\Debug\netstandard2.1\QueueCheckIn.Services.csprojAssemblyReference.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckInServices\obj\Debug\netstandard2.1\QueueCheckIn.Services.AssemblyInfoInputs.cache
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckInServices\obj\Debug\netstandard2.1\QueueCheckIn.Services.AssemblyInfo.cs
+C:\Users\Mum's Laptop\Documents\Higher Diploma Cloud and Web Tech\CapStone\10522200_CapStone\QueueCheckInServices\obj\Debug\netstandard2.1\QueueCheckIn.Services.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+﻿@page
+@model QueueCheckIn.Pages.Employee.IndexModel
+@{
+}
+
+<fieldset>
+    <h2>Welcome @User.Identity.Name!</h2>
+    <br />
+    <a asp-page="/Employee/ListActiveCheckIns" class="btn btn-dark m-1">Active Now</a>
+    <a asp-page="/Employee/ListPast14Day" class="btn btn-primary m-1">Last 14 Days Check-In</a>
+    <a asp-page="/Employee/ListPast30Day" class="btn btn-primary m-1">Last 30 Days Check-In</a>
+    <a asp-page="/Employee/ListAll" class="btn btn-primary m-1">Last All Check-In</a>
+
+</fieldset>

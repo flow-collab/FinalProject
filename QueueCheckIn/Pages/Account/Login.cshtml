@@ -1,0 +1,83 @@
+﻿@page
+@model QueueCheckIn.Pages.Account.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<fieldset>
+
+    <h1>Login</h1>
+    <br />
+
+    <form asp-controller="Account" role="form" asp-action="Login" class="form-horizontal">
+        <div asp-validation-summary="All" class="input-validation-error"></div>
+
+        <div class="form-group">
+            <label asp-for="Email" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="email" asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="field-validation-error"></span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="Password" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input type="password" asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="field-validation-error"></span>
+            </div>
+        </div>
+        <br />
+        <div class="form-group">
+            <label asp-for="RememberMe" class="col-md-2 control-label"></label>
+            <input type="checkbox" asp-for="RememberMe" />
+            <span asp-validation-for="RememberMe" class="field-validation-error"></span>
+        </div>
+        <br />
+        <div>
+            <label>&nbsp;</label>
+            <button type="submit" class="btn btn-primary">Log in</button>
+        </div>
+        <br />
+        <p>
+            <a asp-page="/Account/Register">Register as a new user?</a>
+        </p>
+    </form>
+</fieldset>
+
+
+@*<div class="row">
+
+    <form method="post" class="form-horizontal">
+
+        @if (!ModelState.IsValid)
+        {
+<div class="col-md-offset-2 col-md-10">
+    <h3 class="text-danger">Validation Errors</h3>
+    <div asp-validation-summary="All"></div>
+    <hr />
+</div>}
+
+        <div class="form-group">
+            <label asp-for="EmailAddress" class="col-sm-2 control-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="EmailAddress" class="form-control" placeholder="Email" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password" class="col-sm-2 control-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Password" class="form-control" placeholder="Password" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+
+    </form>
+
+</div>*@
